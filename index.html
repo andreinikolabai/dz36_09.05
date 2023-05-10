@@ -8,7 +8,11 @@
     <title>ДЗ 36</title>
 </head>
 <body>
-
+<label for="postId">ID поста (від 1 до 100):</label>
+<input type="number" id="postId" name="postId" min="1" max="100">
+<button onclick="getPost()">Знайти пост</button>
+<div id="post"></div>
+<div id="comments"></div>
 <script src="main.js"></script>
 </body>
 </html>
